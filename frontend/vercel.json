@@ -1,6 +1,6 @@
 {
     "rewrites": [
         { "source": "/about", "destination": "/about.html" },
-        { "source": "/:path*", "destination": "/dynamic.html" }
+        { "source": "/about/:path*", "destination": "/dynamic.html" }
     ]
 }
